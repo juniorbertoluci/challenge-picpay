@@ -10,7 +10,7 @@
 #### - When a transaction is executed, is started a transaction validation in url: https://util.devi.tools/api/v2/authorize. This validation simulate a authorization for send resource.
 ### About the test
 #### - The test for inserting person will be carried out by inserting three people, one as COMMON, another as MERCHANT and the last will be inserted to validate the first requirement condition.
-#### - When we do the test to validate the transactions, we will perform three operations:
+#### - When we do the test to validate the transactions, we will perform five operations:
 ##### 1 – When the send transaction is carried out for COMMON person type and not authorized
 ##### 2 – When the send transaction is carried out for COMMON person type, is authorized and exist balance
 ##### 3 – When the send transaction is carried out for COMMON person type, is authorized and not exist balance
