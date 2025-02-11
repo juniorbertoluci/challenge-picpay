@@ -18,16 +18,16 @@ public class UserService {
 
     public void validateTransaction(User sender, BigDecimal amount) throws Exception{
         if(sender.getUserType() == UserType.MERCHANT){
-            throw new Exception("Usuário não autorizado a realizar transação!");
+            throw new Exception("User not authorized to perform transactio!");
         }
 
         if(sender.getBalance().compareTo(amount) < 0){
-            throw new Exception("Saldo do usuário insuficiente!");
+            throw new Exception("User balance is not sufficient!");
         }
     }
 
     public User findUserById(Long id) throws Exception{
-        return this.userRepository.findById(id).orElseThrow(() -> new Exception("Usuário não encontrado!"));
+        return this.userRepository.findById(id).orElseThrow(() -> new Exception("User not found!"));
     }
 
     public void saveUser(User user){
