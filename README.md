@@ -1,21 +1,22 @@
-# Challenge Picpay
+# Challenge Picpay Repository
 ## Description
-### This app simulates a finance transaction between two people, that were registered before. The type of people can be 'COMMON' or 'MERCHANT'.
+### This app simulates a finance transaction between two people, that were registered before. 
+### The type of people can be 'COMMON' or 'MERCHANT'.
 ### This application was developed in Java version 23 and is part of my portfolio.
-### Requirements:
-#### - It is not allowed to include more than one person with the same document or email.
-#### - When people type is 'COMMON', they may do transactions for all person type, send or receive.
-#### - When people type is 'MERCHANT', they may not send transactions, only receive.
-#### - Exist a validation to ensure that the people that send resources have balance for this.
-#### - When a transaction is executed, is started a transaction validation in url: https://util.devi.tools/api/v2/authorize. This validation simulate a authorization for send resource.
-### About the test
-#### - The test for inserting person will be carried out by inserting three people, one as COMMON, another as MERCHANT and the last will be inserted to validate the first requirement condition.
-#### - When we do the test to validate the transactions, we will perform five operations:
-##### 1 – When the send transaction is carried out for COMMON person type and not authorized
-##### 2 – When the send transaction is carried out for COMMON person type, is authorized and exist balance
-##### 3 – When the send transaction is carried out for COMMON person type, is authorized and not exist balance
-##### 4 – When the send transaction is carried out for MERCHANT person type
-##### 5 - When the person is not exist
+## Requirements:
+### - It is not allowed to include more than one person with the same document or email.
+### - When people type is 'COMMON', they can do transactions for all person type, send or receive.
+### - When people type is 'MERCHANT', they can't send resources, only receive.
+### - Exist a validation to ensure that the people that send resources have balance for this.
+### - When a transaction is executed, is started a transaction validation in url: https://util.devi.tools/api/v2/authorize. This validation simulate a authorization for send resource.
+## About the test
+### - The test for inserting person will be carried out by inserting three people, one as COMMON, another as MERCHANT and the last will be inserted to validate the first requirement condition.
+### - When we do the test to validate the transactions, we will perform five operations:
+#### 1 – When the sending of resources is carried out by a COMMON type person and the transaction is unauthorized
+#### 2 – When the sending of resources is carried out by a COMMON type person, the transaction is authorized and exist balance
+#### 3 – When the sending of resources is carried out by a COMMON type person, the transaction is authorized and not exist balance
+#### 4 – When the sending of resources is carried out by a MERCHANT type person
+#### 5 - When the person is not exist
 ## Instructions
 ### Prerequisites
 #### 1 - Java JDK 23
