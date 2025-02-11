@@ -1,7 +1,7 @@
 # Challenge Picpay
 ## Description
 ### This app simulates a finance transaction between two people, that were registered before. The type of people can be 'COMMON' or 'MERCHANT'.
-### This application was developed in Java version 21 and is part of my portfolio.
+### This application was developed in Java version 23 and is part of my portfolio.
 ### Requirements:
 #### - It is not allowed to include more than one person with the same document or email.
 #### - When people type is 'COMMON', they may do transactions for all person type, send or receive.
