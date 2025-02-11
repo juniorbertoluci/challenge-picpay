@@ -18,7 +18,7 @@
 ##### 5 - When the person is not exist
 ## Instructions
 ### Prerequisites
-#### 1 - Java JDK 21
+#### 1 - Java JDK 23
 #### 2 - Apache Maven
 #### 3 - RESTFull application tool
 ### Setup
